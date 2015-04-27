@@ -14,5 +14,4 @@ angular.module('clientportalWebappApp')
       'AngularJS',
       'Karma'
     ];
-    $scope.settingsMain = settingsMain;
   });
