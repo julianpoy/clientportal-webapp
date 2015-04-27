@@ -1,5 +1,5 @@
 <p>Please login with the client ID and password provided to you.</p>
-<form>
+<form ng-submit="doLogin()">
 
   <input
     placeholder="Client ID"
@@ -10,7 +10,7 @@
     type="password"
     ng-model="loginData.password"></input><br />
 
-  <input type="submit" value="Login"></input>
+    <button class="btn">Login</button>
 
 </form>
 <br />
