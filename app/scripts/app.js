@@ -1,5 +1,7 @@
 'use strict';
 
+var apiBase = 'http://backend.portal.kondeo.com/';
+
 /**
  * @ngdoc overview
  * @name clientportalWebappApp
