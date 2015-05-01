@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('nudgeWebAppApp')
+angular.module('clientportalWebappApp')
   .factory('Client', ['$resource', function($resource) {
 
     return $resource( apiBase + 'client/:operation',
