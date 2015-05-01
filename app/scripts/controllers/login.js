@@ -8,7 +8,7 @@
  * Controller of the clientportalWebappApp
  */
 angular.module('clientportalWebappApp')
-  .controller('LoginCtrl', function ($scope) {
+  .controller('LoginCtrl', function ($scope, Client) {
     $scope.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
@@ -27,7 +27,7 @@ angular.module('clientportalWebappApp')
                 //Store the token from the server for future use
                 document.cookie = "session_token=" + $scope.serverResponse.result.session_token + "; expires=Sun, 18 Jan 2037 12:00:00 GMT";
                 //Redirect to main site
-                $location.path("/client/" + $scope.loginData.id);
+                $location.path("/panel/" + $scope.loginData.id);
             }
         },
         //To catch Errors when trying to join while the server
