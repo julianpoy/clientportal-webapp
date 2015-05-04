@@ -1,5 +1,8 @@
 # clientportal-webapp
 
+This will be a frontend for the clients of Kondeo software. It will enable online payment tracking and invoice posting.
+
+
 This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
 version 0.11.1.
 
